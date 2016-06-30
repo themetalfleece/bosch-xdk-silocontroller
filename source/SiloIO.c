@@ -175,16 +175,21 @@ retcode_t exec_heat(Lwm2mSerializer_T *serializer_ptr,
 
 void mixer(void * pvParameters) {
 	(void) pvParameters;
-		pin_data.mixer_value = VALVEENABLED;
-		set_pin(&mixer_pin, pin_data.mixer_value);
-		printf("Mixing\n\r");
+	pin_data.mixer_value = VALVEENABLED;
+	set_pin(&mixer_pin, pin_data.mixer_value);
+	printf("Mixing\n\r");
 
-		vTaskDelay(mixingMs);
+	vTaskDelay(mixingMs);
 
-		printf("Finished mixing\n\r");
-		pin_data.mixer_value = VALVEDISABLED;
-		set_pin(&mixer_pin, pin_data.mixer_value);
-		vTaskDelete(mixerTask);
+	printf("Finished mixing\n\r");
+	pin_data.mixer_value = VALVEDISABLED;
+	set_pin(&mixer_pin, pin_data.mixer_value);
+
+
+//	if (mixerTask != NULL) {
+//		vTaskDelete(mixerTask);
+//	}
+
 }
 
 retcode_t exec_mix(Lwm2mSerializer_T *serializer_ptr, Lwm2mParser_T *parser_ptr) {
@@ -204,8 +209,8 @@ retcode_t exec_mix(Lwm2mSerializer_T *serializer_ptr, Lwm2mParser_T *parser_ptr)
 	}
 
 //mixer task
-	xTaskCreate(mixer, "Mixer",
-			UINT32_C(2048), NULL, UINT32_C(2), &mixerTask);
+	xTaskCreate(mixer, "Mixer", UINT32_C(2048), NULL, UINT32_C(2), &mixerTask);
+
 
 //	}
 
@@ -254,9 +259,11 @@ void ioInit(void * pvParameters) {
 
 	init_pins(pvParameters);
 
-	readPinsTimer = xTimerCreate("circle", UINT32_C(600), pdTRUE, NULL, app_circle);
+	readPinsTimer = xTimerCreate("circle", UINT32_C(600), pdTRUE, NULL,
+			app_circle);
 
-	xTimerStart(readPinsTimer, TIMERBLOCKTIME);
+
+
 
 	//OS_taskSuspend(jTask);
 }

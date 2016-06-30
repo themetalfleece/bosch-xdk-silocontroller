@@ -6,7 +6,6 @@
 
 #include "SiloIO.h"
 
-#define SILO_OBJECTID 16663
 
 struct Silo {
 

@@ -7,10 +7,12 @@
 #include "AppLwm2mObjects.h"
 
 #include <stdio.h>
-
+#include "SiloIO.h"
+#include "SiloObjects.c"
 Lwm2mObjectInstance_T objectInstances[] =
 {
-		{ LWM2M_OBJECTID_DEVICE, LWM2M_SINGLE_INSTANCE, LWM2M_RESOURCES(deviceResources), .permissions = {LWM2M_ACCESS_CONTROL_OWNER, 0x0, 0x0, 0x0} }
+		{ LWM2M_OBJECTID_DEVICE, LWM2M_SINGLE_INSTANCE, LWM2M_RESOURCES(deviceResources), .permissions = {LWM2M_ACCESS_CONTROL_OWNER, 0x0, 0x0, 0x0} },
+		{ SILO_OBJECTID, LWM2M_SINGLE_INSTANCE, LWM2M_RESOURCES(silo1), .permissions = {LWM2M_FULL_ACCESS, 0x0, 0x0, 0x0} },
 };
 
 Lwm2mDevice_T deviceResourceInfo =

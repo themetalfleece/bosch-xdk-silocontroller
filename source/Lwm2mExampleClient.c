@@ -151,6 +151,7 @@ void appInitSystem(xTimerHandle xTimer)
 {
     (void) (xTimer);
     /*initialize LCA module*/
+
     if (xTaskCreate(application, (const char * const ) "application",TASK_STACK_SIZE,NULL, TASK_PRIORITY, &initializationTask) != pdPASS)
     {
         assert(0);
@@ -160,5 +161,6 @@ void appInitSystem(xTimerHandle xTimer)
     			TASK_STACK_SIZE, NULL, TASK_PRIORITY, &siloTask) != pdPASS) {
     		assert(0);
     	}
+
 }
 /** ************************************************************************* */
