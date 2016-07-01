@@ -21,7 +21,7 @@
 #include "PTD_portDriver_ih.h"
 #include "PTD_portDriver_ph.h"
 
-#define SILO_MODE 4
+#define SILO_MODE 1
 #define SILO_OBJECTID 16663
 
 extern retcode_t exec_fill(Lwm2mSerializer_T *serializer_ptr,
@@ -52,6 +52,8 @@ typedef enum {
 
 #if SILO_MODE == 4
 extern int32_t mixingStatus;
+extern int8_t isHeating;
+extern int8_t isMixing;
 #endif
 
 typedef struct {

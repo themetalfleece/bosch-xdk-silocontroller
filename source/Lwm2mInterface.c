@@ -6,7 +6,7 @@
 
 #warning Enable and disable security here, by default security has disabled by defining SECURITY_ENABLE as 0.
 #define SECURITY_ENABLE 0
-#define SERVER_UNSECURE "coap://192.168.43.8:5683/" //leshan: coap://5.39.83.206:5683/
+#define SERVER_UNSECURE "coap://192.168.43.8:5683/" //leshan: coap://5.39.83.206:5683/ // sol: coap://192.168.43.8:5683/
 
 #if SERVAL_ENABLE_COAP_SERVER
 

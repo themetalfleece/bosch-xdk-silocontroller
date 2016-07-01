@@ -15,8 +15,12 @@ static xTimerHandle readPinsTimer;
 Silo_State silo_state = EMPTY;
 
 #if SILO_MODE == 4
+int32_t heatingMs = 100;
 int32_t mixingMs = 100;
-xTaskHandle mixerTask;
+static xTimerHandle stopHeatingTimer;
+static xTimerHandle stopMixingTimer;
+int8_t isHeating = 0;
+int8_t isMixing = 0;
 #endif
 
 int get_pin(GPIO_handleInfo_t *pin) {
@@ -29,7 +33,7 @@ void set_pin(GPIO_handleInfo_t *pin, int status) {
 
 void print_status(GPIO_pinStates_t cur_value, char *descr) {
 	int status = cur_value == GPIO_STATE_ON ? 1 : 0;
-	printf("%d - %s\n\r", status, descr);
+	printf("%d - %s\r\n", status, descr);
 }
 
 void read_pins(void) {
@@ -46,7 +50,7 @@ void process_values(void) {
 			pin_data.in_valve_value = VALVEDISABLED;
 			silo_state = FULL;
 
-			printf("Full\n\r");
+			printf("Full\r\n");
 		}
 	}
 
@@ -55,7 +59,7 @@ void process_values(void) {
 			pin_data.out_valve_value = VALVEDISABLED;
 			silo_state = EMPTY;
 
-			printf("Empty\n\r");
+			printf("Empty\r\n");
 		}
 	}
 
@@ -73,14 +77,14 @@ void emulate_exec(void) {
 		pin_data.out_valve_value = VALVEENABLED;
 		silo_state = EMPTYING;
 
-		printf("Emptying\n\r");
+		printf("Emptying\r\n");
 	}
 	// fill request
 	else if (silo_state == EMPTY) {
 		pin_data.in_valve_value = VALVEENABLED;
 		silo_state = FILLING;
 
-		printf("Filling\n\r");
+		printf("Filling\r\n");
 	}
 
 }
@@ -97,7 +101,7 @@ retcode_t exec_fill(Lwm2mSerializer_T *serializer_ptr,
 		pin_data.out_valve_value = VALVEDISABLED;
 		silo_state = FILLING;
 
-		printf("Filling\n\r");
+		printf("Filling\r\n");
 	}
 
 	return (RC_OK);
@@ -115,25 +119,7 @@ retcode_t exec_empty(Lwm2mSerializer_T *serializer_ptr,
 		pin_data.out_valve_value = VALVEENABLED;
 		silo_state = EMPTYING;
 
-		printf("Emptying\n\r");
-	}
-
-	return (RC_OK);
-}
-
-retcode_t exec_stop(Lwm2mSerializer_T *serializer_ptr,
-		Lwm2mParser_T *parser_ptr) {
-	(void) parser_ptr;
-	(void) serializer_ptr;
-
-	printf("Stop Request\r\n");
-
-	if (silo_state == FILLING || silo_state == EMPTYING) {
-		pin_data.out_valve_value = VALVEDISABLED;
-		pin_data.in_valve_value = VALVEDISABLED;
-		silo_state = STOPPED;
-
-		printf("Stopped\n\r");
+		printf("Emptying\r\n");
 	}
 
 	return (RC_OK);
@@ -146,16 +132,41 @@ retcode_t exec_initialize(Lwm2mSerializer_T *serializer_ptr,
 
 	printf("Initialize Request\r\n");
 
+#if SILO_MODE == 4
 	pin_data.in_valve_value = VALVEDISABLED;
 	pin_data.out_valve_value = VALVEENABLED;
 	silo_state = EMPTYING;
-
-	printf("Initializing\n\r");
+#endif
+#if SILO_MODE == 1
+	pin_data.in_valve_value = VALVEENABLED;
+	pin_data.out_valve_value = VALVEDISABLED;
+	silo_state = FILLING;
+#endif
+	printf("Initializing\r\n");
 
 	return (RC_OK);
 }
 
 #if SILO_MODE == 4
+
+void startHeating(void * pvParameters) {
+	(void) pvParameters;
+	pin_data.heater_value = VALVEENABLED;
+	set_pin(&heater_pin, pin_data.heater_value);
+	isHeating = 1;
+	printf("Heating\r\n");
+
+}
+
+void stopHeating(void * pvParameters) {
+	(void) pvParameters;
+
+	pin_data.heater_value = VALVEDISABLED;
+	set_pin(&heater_pin, pin_data.heater_value);
+	isHeating = 0;
+	printf("Finished heating\r\n");
+}
+
 retcode_t exec_heat(Lwm2mSerializer_T *serializer_ptr,
 		Lwm2mParser_T *parser_ptr) {
 	(void) parser_ptr;
@@ -163,36 +174,44 @@ retcode_t exec_heat(Lwm2mSerializer_T *serializer_ptr,
 
 	printf("Heat Request\r\n");
 
-	if (silo_state == FULL) {
-		pin_data.out_valve_value = VALVEENABLED;
-		silo_state = EMPTYING;
+	retcode_t rc = RC_OK;
 
-		printf("Emptying\n\r");
+	if (silo_state == FULL || silo_state == STOPPED) {
+
+		rc = Lwm2mParser_getInt(parser_ptr, &heatingMs);
+
+		printf("%d\r\n", heatingMs);
+
+		if (rc != RC_OK) {
+			return (rc);
+		}
+
+		startHeating(null);
+		xTimerChangePeriod(stopHeatingTimer, heatingMs, 0);
+		if (xTimerStart(stopHeatingTimer, 0) != pdPASS) {
+			printf("The Heating timer could not be activated\r\n");
+		}
 	}
 
 	return (RC_OK);
 }
 
-void mixer(void * pvParameters) {
+void startMixing(void * pvParameters) {
 	(void) pvParameters;
-	vTaskSuspend(mixerTask);
-	while (1) {
-		pin_data.mixer_value = VALVEENABLED;
-		set_pin(&mixer_pin, pin_data.mixer_value);
-		printf("Mixing\n\r");
+	pin_data.mixer_value = VALVEENABLED;
+	set_pin(&mixer_pin, pin_data.mixer_value);
+	isMixing = 1;
+	printf("Mixing\r\n");
 
-		vTaskDelay(mixingMs);
+}
 
-		printf("Finished mixing\n\r");
-		pin_data.mixer_value = VALVEDISABLED;
-		set_pin(&mixer_pin, pin_data.mixer_value);
-		vTaskSuspend(mixerTask);
-	}
+void stopMixing(void * pvParameters) {
+	(void) pvParameters;
 
-//	if (mixerTask != NULL) {
-//		vTaskDelete(mixerTask);
-//	}
-
+	pin_data.mixer_value = VALVEDISABLED;
+	set_pin(&mixer_pin, pin_data.mixer_value);
+	isMixing = 0;
+	printf("Finished mixing\r\n");
 }
 
 retcode_t exec_mix(Lwm2mSerializer_T *serializer_ptr, Lwm2mParser_T *parser_ptr) {
@@ -203,22 +222,55 @@ retcode_t exec_mix(Lwm2mSerializer_T *serializer_ptr, Lwm2mParser_T *parser_ptr)
 
 	retcode_t rc = RC_OK;
 
-//	if (silo_state == FULL) {
+	if (silo_state == FULL || silo_state == STOPPED) {
 
-	rc = Lwm2mParser_getInt(parser_ptr, &mixingMs);
-	printf("%d\n\r", mixingMs);
-	if (rc != RC_OK) {
-		return (rc);
+		rc = Lwm2mParser_getInt(parser_ptr, &mixingMs);
+
+		printf("%d\r\n", mixingMs);
+
+		if (rc != RC_OK) {
+			return (rc);
+		}
+
+		startMixing(null);
+		xTimerChangePeriod(stopMixingTimer, mixingMs, 0);
+		if (xTimerStart(stopMixingTimer, 0) != pdPASS) {
+			printf("The Mixing timer could not be activated\r\n");
+		}
 	}
-
-//mixer task
-	vTaskResume(mixerTask);
-
-//	}
 
 	return (RC_OK);
 }
 #endif
+
+//TODO
+retcode_t exec_stop(Lwm2mSerializer_T *serializer_ptr,
+		Lwm2mParser_T *parser_ptr) {
+	(void) parser_ptr;
+	(void) serializer_ptr;
+
+	printf("Stop Request\r\n");
+
+	pin_data.out_valve_value = VALVEDISABLED;
+	pin_data.in_valve_value = VALVEDISABLED;
+	silo_state = STOPPED;
+
+#if SILO_MODE == 4
+	if (isHeating) {
+		xTimerStop(stopHeatingTimer, 0);
+		stopHeating(null);
+	}
+	if (isMixing) {
+		xTimerStop(stopMixingTimer, 0);
+		stopMixing(null);
+	}
+
+#endif
+
+	printf("Stopped\r\n");
+
+	return (RC_OK);
+}
 
 static void app_circle(xTimerHandle xTimer) {
 	(void) (xTimer);
@@ -251,6 +303,7 @@ void init_pins(void * pvParameters) {
 
 #if SILO_MODE == 4
 	GPIO_init((GPIO_handle_tp) &mixer_pin, mixer_pin.Direction, GPIO_STATE_ON);
+	GPIO_init((GPIO_handle_tp) &heater_pin, mixer_pin.Direction, GPIO_STATE_ON);
 #endif
 
 }
@@ -263,9 +316,12 @@ void ioInit(void * pvParameters) {
 
 	readPinsTimer = xTimerCreate("circle", UINT32_C(600), pdTRUE, NULL,
 			app_circle);
+	xTimerStart(readPinsTimer, TIMERBLOCKTIME);
+#if SILO_MODE == 4
+	stopHeatingTimer = xTimerCreate("stopHeating", UINT32_C(1000), pdFALSE,
+			NULL, stopHeating);
 
-	if (SILO_MODE == 4)
-		xTaskCreate(mixer, "Mixer", UINT32_C(2048), NULL, UINT32_C(2),
-				&mixerTask);
-
+	stopMixingTimer = xTimerCreate("stopMixing", UINT32_C(1000), pdFALSE, NULL,
+			stopMixing);
+#endif
 }
