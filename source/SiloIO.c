@@ -54,7 +54,7 @@ void process_values(void) {
 		}
 	}
 
-	else if (silo_state == EMPTYING) {
+	else if (silo_state == EMPTYING || silo_state == INITIALIZING) {
 		if (pin_data.empty_pin_value == LIQUIDNOTDETECTED) {
 			pin_data.out_valve_value = VALVEDISABLED;
 			silo_state = EMPTY;
@@ -132,16 +132,20 @@ retcode_t exec_initialize(Lwm2mSerializer_T *serializer_ptr,
 
 	printf("Initialize Request\r\n");
 
-#if SILO_MODE == 4
 	pin_data.in_valve_value = VALVEDISABLED;
 	pin_data.out_valve_value = VALVEENABLED;
-	silo_state = EMPTYING;
+
+#if SILO_MODE == 4
+	pin_data.heater_value = VALVEDISABLED;
+	set_pin(&heater_pin, pin_data.heater_value);
+	isHeating = 0;
+	pin_data.mixer_value = VALVEDISABLED;
+	set_pin(&mixer_pin, pin_data.mixer_value);
+	isMixing = 0;
 #endif
-#if SILO_MODE == 1
-	pin_data.in_valve_value = VALVEENABLED;
-	pin_data.out_valve_value = VALVEDISABLED;
-	silo_state = FILLING;
-#endif
+	silo_state = INITIALIZING;
+
+
 	printf("Initializing\r\n");
 
 	return (RC_OK);

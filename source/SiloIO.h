@@ -21,7 +21,7 @@
 #include "PTD_portDriver_ih.h"
 #include "PTD_portDriver_ph.h"
 
-#define SILO_MODE 1
+#define SILO_MODE 4
 #define SILO_OBJECTID 16663
 
 extern retcode_t exec_fill(Lwm2mSerializer_T *serializer_ptr,
@@ -40,7 +40,7 @@ extern retcode_t exec_mix(Lwm2mSerializer_T *serializer_ptr,
 #endif
 
 typedef enum {
-	EMPTY, FILLING, FULL, EMPTYING, STOPPED
+	EMPTY, FILLING, FULL, EMPTYING, STOPPED, INITIALIZING
 } Silo_State;
 
 typedef enum {

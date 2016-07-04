@@ -44,6 +44,9 @@ static retcode_t get_state(Lwm2mSerializer_T *serializer_ptr,
 	case 4:
 		strcpy(status, "Stopped");
 		break;
+	case 5:
+		strcpy(status, "Initializing");
+		break;
 	}
 
 	//char* status_name[] = {"Empty", "Filling", "Full", "Emptying"};
