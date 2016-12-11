@@ -19,8 +19,11 @@ int32_t heatingMs = 100;
 int32_t mixingMs = 100;
 static xTimerHandle stopHeatingTimer;
 static xTimerHandle stopMixingTimer;
-int8_t isHeating = 0;
-int8_t isMixing = 0;
+int8_t filling_completed = 0;
+int8_t emptying_completed = 0;
+int8_t heating_completed = 0;
+int8_t mixing_completed = 0;
+int8_t target_temperature = 32;
 #endif
 
 int get_pin(GPIO_handleInfo_t *pin) {
@@ -43,12 +46,105 @@ void read_pins(void) {
 
 }
 
+void notifyState(void) {
+	retcode_t rc = RC_OK;
+
+	/* Here URI_Path is the path points to the "state" Resource */
+	Lwm2m_URI_Path_T currentStateUriPath = { SILO_OBJECT_INDEX_VALUE, SILO_OBJECT_INSTANCE_INDEX_VALUE, STATE_OBJECT_RESOURCE_NUMBER };
+	rc = Lwm2mReporting_resourceChanged(&currentStateUriPath);
+	if (rc == RC_OK)
+	{
+		printf("Notification sent about state change\r\n");
+	}
+	else
+	{
+		printf("Could not send notification\r\n");
+	}
+}
+
+void notifyFillingCompleted(void) {
+
+	retcode_t rc = RC_OK;
+
+		/* Here URI_Path is the path points to the "state" Resource */
+		Lwm2m_URI_Path_T currentStateUriPath = { SILO_OBJECT_INDEX_VALUE, SILO_OBJECT_INSTANCE_INDEX_VALUE, FILLING_COMPLETED_OBJECT_RESOURCE_NUMBER };
+		rc = Lwm2mReporting_resourceChanged(&currentStateUriPath);
+		if (rc == RC_OK)
+		{
+			printf("Notification sent about filling completed\r\n");
+		}
+		else
+		{
+			printf("Could not send notification\r\n");
+		}
+
+}
+
+void notifyEmptyingCompleted(void) {
+
+	retcode_t rc = RC_OK;
+
+		/* Here URI_Path is the path points to the "state" Resource */
+		Lwm2m_URI_Path_T currentStateUriPath = { SILO_OBJECT_INDEX_VALUE, SILO_OBJECT_INSTANCE_INDEX_VALUE, EMPTYING_COMPLETED_OBJECT_RESOURCE_NUMBER };
+		rc = Lwm2mReporting_resourceChanged(&currentStateUriPath);
+		if (rc == RC_OK)
+		{
+			printf("Notification sent about emptying completed\r\n");
+		}
+		else
+		{
+			printf("Could not send notification\r\n");
+		}
+
+}
+
+void notifyHeatingCompleted(void) {
+
+	retcode_t rc = RC_OK;
+
+		/* Here URI_Path is the path points to the "state" Resource */
+		Lwm2m_URI_Path_T currentStateUriPath = { SILO_OBJECT_INDEX_VALUE, SILO_OBJECT_INSTANCE_INDEX_VALUE, HEATING_COMPLETED_OBJECT_RESOURCE_NUMBER };
+		rc = Lwm2mReporting_resourceChanged(&currentStateUriPath);
+		if (rc == RC_OK)
+		{
+			printf("Notification sent about heating completed\r\n");
+		}
+		else
+		{
+			printf("Could not send notification\r\n");
+		}
+
+}
+
+void notifyMixingCompleted(void) {
+
+	retcode_t rc = RC_OK;
+
+		/* Here URI_Path is the path points to the "state" Resource */
+		Lwm2m_URI_Path_T currentStateUriPath = { SILO_OBJECT_INDEX_VALUE, SILO_OBJECT_INSTANCE_INDEX_VALUE, MIXING_COMPLETED_OBJECT_RESOURCE_NUMBER };
+		rc = Lwm2mReporting_resourceChanged(&currentStateUriPath);
+		if (rc == RC_OK)
+		{
+			printf("Notification sent about mixing completed\r\n");
+		}
+		else
+		{
+			printf("Could not send notification\r\n");
+		}
+
+}
+
 void process_values(void) {
+
+	Silo_State oldState = silo_state;
 
 	if (silo_state == FILLING) {
 		if (pin_data.full_pin_value == LIQUIDDETECTED) {
 			pin_data.in_valve_value = VALVEDISABLED;
 			silo_state = FULL;
+
+			filling_completed = 1;
+			notifyFillingCompleted();
 
 			printf("Full\r\n");
 		}
@@ -59,8 +155,16 @@ void process_values(void) {
 			pin_data.out_valve_value = VALVEDISABLED;
 			silo_state = EMPTY;
 
+			emptying_completed = 1;
+			notifyEmptyingCompleted();
+
 			printf("Empty\r\n");
 		}
+	}
+
+	if (silo_state != oldState)
+	{
+		notifyState();
 	}
 
 }
@@ -101,6 +205,10 @@ retcode_t exec_fill(Lwm2mSerializer_T *serializer_ptr,
 		pin_data.out_valve_value = VALVEDISABLED;
 		silo_state = FILLING;
 
+		notifyState();
+		filling_completed = 0;
+		notifyFillingCompleted();
+
 		printf("Filling\r\n");
 	}
 
@@ -119,6 +227,10 @@ retcode_t exec_empty(Lwm2mSerializer_T *serializer_ptr,
 		pin_data.out_valve_value = VALVEENABLED;
 		silo_state = EMPTYING;
 
+		notifyState();
+		emptying_completed = 0;
+		notifyEmptyingCompleted();
+
 		printf("Emptying\r\n");
 	}
 
@@ -135,16 +247,24 @@ retcode_t exec_initialize(Lwm2mSerializer_T *serializer_ptr,
 	pin_data.in_valve_value = VALVEDISABLED;
 	pin_data.out_valve_value = VALVEENABLED;
 
+	filling_completed = 0;
+	emptying_completed = 0;
+
 #if SILO_MODE == 4
 	pin_data.heater_value = VALVEDISABLED;
 	set_pin(&heater_pin, pin_data.heater_value);
-	isHeating = 0;
+	heating_completed = 0;
 	pin_data.mixer_value = VALVEDISABLED;
 	set_pin(&mixer_pin, pin_data.mixer_value);
-	isMixing = 0;
+	mixing_completed = 0;
 #endif
 	silo_state = INITIALIZING;
 
+	notifyState();
+	notifyFillingCompleted();
+	notifyEmptyingCompleted();
+	notifyHeatingCompleted();
+	notifyMixingCompleted();
 
 	printf("Initializing\r\n");
 
@@ -157,7 +277,8 @@ void startHeating(void * pvParameters) {
 	(void) pvParameters;
 	pin_data.heater_value = VALVEENABLED;
 	set_pin(&heater_pin, pin_data.heater_value);
-	isHeating = 1;
+	heating_completed = 0;
+	notifyHeatingCompleted();
 	printf("Heating\r\n");
 
 }
@@ -167,7 +288,8 @@ void stopHeating(void * pvParameters) {
 
 	pin_data.heater_value = VALVEDISABLED;
 	set_pin(&heater_pin, pin_data.heater_value);
-	isHeating = 0;
+	heating_completed = 1;
+	notifyHeatingCompleted();
 	printf("Finished heating\r\n");
 }
 
@@ -183,8 +305,8 @@ retcode_t exec_heat(Lwm2mSerializer_T *serializer_ptr,
 	if (silo_state == FULL || silo_state == STOPPED) {
 
 		rc = Lwm2mParser_getInt(parser_ptr, &heatingMs);
-
-		printf("%d\r\n", heatingMs);
+		heatingMs = (heatingMs-25) * 1000 + 200;
+//		printf("%d\r\n", heatingMs);
 
 		if (rc != RC_OK) {
 			return (rc);
@@ -204,7 +326,8 @@ void startMixing(void * pvParameters) {
 	(void) pvParameters;
 	pin_data.mixer_value = VALVEENABLED;
 	set_pin(&mixer_pin, pin_data.mixer_value);
-	isMixing = 1;
+	mixing_completed = 0;
+	notifyMixingCompleted();
 	printf("Mixing\r\n");
 
 }
@@ -214,7 +337,8 @@ void stopMixing(void * pvParameters) {
 
 	pin_data.mixer_value = VALVEDISABLED;
 	set_pin(&mixer_pin, pin_data.mixer_value);
-	isMixing = 0;
+	mixing_completed = 1;
+	notifyMixingCompleted();
 	printf("Finished mixing\r\n");
 }
 
@@ -260,20 +384,27 @@ retcode_t exec_stop(Lwm2mSerializer_T *serializer_ptr,
 	silo_state = STOPPED;
 
 #if SILO_MODE == 4
-	if (isHeating) {
+	if (!heating_completed) {
 		xTimerStop(stopHeatingTimer, 0);
 		stopHeating(null);
 	}
-	if (isMixing) {
+	if (!mixing_completed) {
 		xTimerStop(stopMixingTimer, 0);
 		stopMixing(null);
 	}
 
 #endif
 
+	notifyState();
+
 	printf("Stopped\r\n");
 
 	return (RC_OK);
+}
+
+# warning incomplete
+void setTargetTemp(void){
+
 }
 
 static void app_circle(xTimerHandle xTimer) {

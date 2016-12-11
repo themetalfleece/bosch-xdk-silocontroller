@@ -27,6 +27,14 @@
 #define TIMERBLOCKTIME                       UINT32_C(0xffff)   /**< Macro used to define block time of a timer*/
 #define MAX_REGISTRATION_UPDATE_RETRY        UINT8_C(10)        /**< Macro used to define maximum retry for registration update*/
 /** enum to represent LED return status */
+
+#define SILO_OBJECT_INDEX_VALUE                   INT32_C(1)        /**< Macro used to define the object index*/
+#define SILO_OBJECT_INSTANCE_INDEX_VALUE          INT32_C(1)        /**< Macro used to define object Instance number*/
+#define STATE_OBJECT_RESOURCE_NUMBER               INT32_C(0)       /**< Macro used to define the resource number*/
+#define FILLING_COMPLETED_OBJECT_RESOURCE_NUMBER               INT32_C(7)
+#define EMPTYING_COMPLETED_OBJECT_RESOURCE_NUMBER               INT32_C(8)
+#define HEATING_COMPLETED_OBJECT_RESOURCE_NUMBER               INT32_C(9)
+#define MIXING_COMPLETED_OBJECT_RESOURCE_NUMBER               INT32_C(10)
 typedef enum led_return_e
 {
     RETURN_FAILURE,

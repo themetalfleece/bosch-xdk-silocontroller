@@ -39,6 +39,25 @@ struct DeviceResource_S
     Lwm2mResource_T SupportedBindingAndModes;
 };
 
+struct Silo {
+
+	Lwm2mResource_T status;
+	Lwm2mResource_T fill;
+	Lwm2mResource_T empty;
+	Lwm2mResource_T stop;
+	Lwm2mResource_T initialize;
+//#if SILO_MODE == 4
+	Lwm2mResource_T heat;
+	Lwm2mResource_T mix;
+	Lwm2mResource_T fillingCompleted;
+	Lwm2mResource_T emptyingCompleted;
+	Lwm2mResource_T heatingCompleted;
+	Lwm2mResource_T mixingCompleted;
+	Lwm2mResource_T targetTemperature;
+//#endif
+};
+
 extern struct DeviceResource_S deviceResources;
+extern struct Silo silo1;
 
 #endif /* XDK110_LWM2MOBJECTS_H_ */

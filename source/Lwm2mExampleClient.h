@@ -17,8 +17,8 @@
 #define ONE                             UINT8_C(0x01)           /**< Macro to define value one*/
 #define TASK_STACK_SIZE                 UINT32_C(2048)          /**< Macro to represent the task stack size */
 #define TASK_PRIORITY                   UINT32_C(2)             /**< Macro to represent the task priority */
-#define WLAN_CONNECT_WPA_SSID                "KFC"         /**< Macros to define WPA/WPA2 network settings */
-#define WLAN_CONNECT_WPA_PASS                "12345687"      /**< Macros to define WPA/WPA2 network settings */
+#define WLAN_CONNECT_WPA_SSID                "Azoth"         /**< Macros to define WPA/WPA2 network settings */
+#define WLAN_CONNECT_WPA_PASS                "MarshadowSpectralThief"      /**< Macros to define WPA/WPA2 network settings */
 /* Server Connecting Port is user configurable */
 #define CLIENT_CONNECT_PORT             UINT32_C(12345)
 #if SERVAL_ENABLE_TLS_CLIENT

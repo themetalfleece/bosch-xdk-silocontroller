@@ -50,11 +50,13 @@ typedef enum {
 	LIQUIDNOTDETECTED = 0, LIQUIDDETECTED = 1
 } sensor_detection;
 
-#if SILO_MODE == 4
-extern int32_t mixingStatus;
-extern int8_t isHeating;
-extern int8_t isMixing;
-#endif
+//#if SILO_MODE == 4
+extern int8_t filling_completed;
+extern int8_t emptying_completed;
+extern int8_t heating_completed;
+extern int8_t mixing_completed;
+extern int8_t target_temperature;
+//#endif
 
 typedef struct {
 	int full_pin_value;

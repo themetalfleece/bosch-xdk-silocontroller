@@ -1,5 +1,5 @@
-C:/XDK-Workbench/workspace/SiloController/debug/objects/main.o: \
- C:/XDK-Workbench/workspace/SiloController/source/main.c \
+C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o: \
+ C:/Users/Jason/Documents/GitHub/xdk_silocontroller/source/main.c \
  ../Platform/Basics/include/BCDS_Basics.h \
  ../Common/./include/XdkSystemStartup.h
 

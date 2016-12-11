@@ -6,20 +6,6 @@
 
 #include "SiloIO.h"
 
-struct Silo {
-
-	Lwm2mResource_T status;
-	Lwm2mResource_T mode;
-	Lwm2mResource_T fill;
-	Lwm2mResource_T empty;
-	Lwm2mResource_T stop;
-	Lwm2mResource_T initialize;
-#if SILO_MODE == 4
-	Lwm2mResource_T heat;
-	Lwm2mResource_T mix;
-	Lwm2mResource_T mixingCompleted;
-#endif
-};
 
 static retcode_t get_state(Lwm2mSerializer_T *serializer_ptr,
 		Lwm2mParser_T *parser_ptr) {
@@ -55,37 +41,60 @@ static retcode_t get_state(Lwm2mSerializer_T *serializer_ptr,
 	StringDescr_T strDescr_tz;
 	StringDescr_set(&strDescr_tz, (char*) &status, strlen(status));
 
+//	Lwm2m_URI_Path_T currentTimeUriPath = {OBJECT_INDEX_VALUE,OBJECT_INSTANCE_INDEX_VALUE,OBJECT_RESOURCE_NUMBER};
+//	Lwm2mReporting_resourceChanged(&currentTimeUriPath);
+
 	return (Lwm2mSerializer_serializeString(serializer_ptr, &strDescr_tz));
+}
+
+
+static retcode_t get_filling_completed(Lwm2mSerializer_T *serializer_ptr,
+		Lwm2mParser_T *parser_ptr) {
+	(void) parser_ptr;
+	(void) serializer_ptr;
+
+	return (Lwm2mSerializer_serializeBool(serializer_ptr, filling_completed));
+}
+
+static retcode_t get_emptying_completed(Lwm2mSerializer_T *serializer_ptr,
+		Lwm2mParser_T *parser_ptr) {
+	(void) parser_ptr;
+	(void) serializer_ptr;
+
+	return (Lwm2mSerializer_serializeBool(serializer_ptr, emptying_completed));
 }
 
 #if SILO_MODE ==4
 
-static retcode_t heating_completed(Lwm2mSerializer_T *serializer_ptr,
+static retcode_t get_heating_completed(Lwm2mSerializer_T *serializer_ptr,
 		Lwm2mParser_T *parser_ptr) {
 	(void) parser_ptr;
 	(void) serializer_ptr;
 
-	return (Lwm2mSerializer_serializeBool(serializer_ptr, !isHeating));
+	return (Lwm2mSerializer_serializeBool(serializer_ptr, heating_completed));
 }
 
-static retcode_t mixing_completed(Lwm2mSerializer_T *serializer_ptr,
+static retcode_t get_mixing_completed(Lwm2mSerializer_T *serializer_ptr,
 		Lwm2mParser_T *parser_ptr) {
 	(void) parser_ptr;
 	(void) serializer_ptr;
 
-	return (Lwm2mSerializer_serializeBool(serializer_ptr, !isMixing));
+	return (Lwm2mSerializer_serializeBool(serializer_ptr, mixing_completed));
 }
+
 #endif
 
-#warning match ids
-struct Silo silo1 = { { 0, LWM2M_DYNAMIC( get_state ) }, { 1,
-LWM2M_FUNCTION( exec_fill ) }, { 2, LWM2M_FUNCTION( exec_empty ) }, { 3,
-LWM2M_FUNCTION( exec_stop ) }, { 4, LWM2M_FUNCTION( exec_initialize ) },
-
-#if SILO_MODE == 4
-		{ 5, LWM2M_FUNCTION( exec_heat ) }, { 6, LWM2M_FUNCTION( exec_mix ) },{
-				9, LWM2M_DYNAMIC( heating_completed ) }, {
-				10, LWM2M_DYNAMIC( mixing_completed ) },
-#endif
-
+struct Silo silo1 = {
+		{ 0, LWM2M_DYNAMIC( get_state ) },
+		{ 1, LWM2M_FUNCTION( exec_fill ) },
+		{ 2, LWM2M_FUNCTION( exec_empty ) },
+		{ 3, LWM2M_FUNCTION( exec_stop ) },
+		{ 4, LWM2M_FUNCTION( exec_initialize ) },
+		{ 5, LWM2M_FUNCTION( exec_heat ) },
+		{ 6, LWM2M_FUNCTION( exec_mix ) },
+		{ 7, LWM2M_DYNAMIC( get_filling_completed ) },
+		{ 8, LWM2M_DYNAMIC( get_emptying_completed ) },
+		{ 9, LWM2M_DYNAMIC( get_heating_completed ) },
+		{ 10, LWM2M_DYNAMIC( get_mixing_completed ) },
+		{ 11, LWM2M_FLOAT( 32 ) | LWM2M_WRITE_ALLOWED },
 		};
