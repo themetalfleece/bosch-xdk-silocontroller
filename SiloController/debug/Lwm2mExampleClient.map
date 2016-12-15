@@ -1,17 +1,17 @@
 Archive member included because of file (symbol)
 
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2m.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o (Lwm2m_setNumberOfServers)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o (Lwm2m_setNumberOfServers)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mSerializer.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o (Lwm2mSerializer_serializeString)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o (Lwm2mSerializer_serializeString)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mBootstrap.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2m.o) (Lwm2mBootstrap_ServerInitiatedBootstrap)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mDeviceManagement.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mBootstrap.o) (Lwm2mDeviceManagement_updateData)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mParser.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o (Lwm2mParser_getString)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o (Lwm2mParser_getString)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mSecurity.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o (Lwm2mSecurity_PskCallback)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o (Lwm2mSecurity_PskCallback)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mRegistration.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2m.o) (Lwm2mRegistration_initialize)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mResourcesMonitor.o)
@@ -107,21 +107,21 @@ Archive member included because of file (symbol)
 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(HttpPoolFlags.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(HttpPool.o) (httpPoolFlags)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o (Clock_getTime)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o (Clock_getTime)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Msg.o) (CommBuff_getInvalidBuffer)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_fileSystem_cc.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(OutMsgFactory.o) (Filesystem_read)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o (PAL_initialize)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o (PAL_initialize)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_ip_cc.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o (Ip_convertAddrToString)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o (Ip_convertAddrToString)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_logAppender_cc.o)
                               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o) (xdkLogAppenders_loadUSBAppender)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_scheduler_cc.o)
                               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o) (PAL_schedulerInitialize)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_socketMonitor_cc.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o (PAL_socketMonitorInit)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o (PAL_socketMonitorInit)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_tcp_cc.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(HttpPool.o) (Tcp_isValidSocket)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_timerRTOS_cc.o)
@@ -131,7 +131,7 @@ Archive member included because of file (symbol)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslAdapter.o)
                               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o) (Tcp_SecureClient_initialize)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o (Dtls_setServerPskCallback)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o (Dtls_setServerPskCallback)
 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslPALAdapter.o)
                               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslAdapter.o) (CyaSslPALAdapter_initialize)
 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(netapp.o)
@@ -175,7 +175,7 @@ Archive member included because of file (symbol)
 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(queue.o)
                               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o) (xQueueGenericCreate)
 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(tasks.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o (xTaskGenericCreate)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o (xTaskGenericCreate)
 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(timers.o)
                               ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(tasks.o) (xTimerCreateTimerTask)
 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
@@ -185,9 +185,9 @@ Archive member included because of file (symbol)
 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(list.o)
                               ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(queue.o) (vListInitialise)
 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(gpio_efm32gg.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o (GPIO_init)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o (GPIO_init)
 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(led_efm32.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o (LED_create)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o (LED_create)
 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_cc.o)
                               ./../Platform/SensorUtils/debug/libSensorUtils_efm32_debug.a(Bma280Utils.o) (I2C_delayFunction)
 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SID_serialDriverInf_cc.o)
@@ -201,7 +201,7 @@ Archive member included because of file (symbol)
 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
                               ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SPI_cc.o) (SER_serialInit)
 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o (RETARGET_WriteChar)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o (RETARGET_WriteChar)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_cmu.o)
                               ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SPI_cc.o) (CMU_ClockFreqGet)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_dma.o)
@@ -211,7 +211,7 @@ Archive member included because of file (symbol)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_gpio.o)
                               ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(PTD_portDriver_cc.o) (GPIO_IntConfig)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_int.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o (INT_LockCnt)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o (INT_LockCnt)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_i2c.o)
                               ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_efm32Driver_cc.o) (I2C_Init)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_leuart.o)
@@ -219,11 +219,11 @@ Archive member included because of file (symbol)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_usart.o)
                               ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o) (USART_Enable)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_usbd.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o (dev)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o (dev)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_usbhal.o)
                               ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_usbd.o) (USBDHAL_Connect)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_usbdep.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o (USBDEP_Ep0Handler)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o (USBDEP_Ep0Handler)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_usbtimer.o)
                               ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o) (USBTIMER_DelayMs)
 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(system_efm32gg.o)
@@ -243,9 +243,9 @@ Archive member included because of file (symbol)
 ./../Libraries/BSTLib_BSD/BST/../BCDS_Customization/debug/libBstlibBsd_efm32_debug.a(bmm050.o)
                               ./../Platform/SensorUtils/debug/libSensorUtils_efm32_debug.a(Bmm150Utils.o) (bmm050_init)
 ../Common/debug/XDKCommon_efm32_debug.a(SystemStartup.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o (systemStartup)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o (systemStartup)
 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o (gpioRedLed_Handle)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o (gpioRedLed_Handle)
 ../Common/debug/XDKCommon_efm32_debug.a(BoardInitialization.o)
                               ../Common/debug/XDKCommon_efm32_debug.a(SystemStartup.o) (boardInit)
 ../Common/debug/XDKCommon_efm32_debug.a(GpioConfig.o)
@@ -401,7 +401,7 @@ c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fflush.o)
                               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_logAppender_cc.o) (fflush)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fileno.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o (fileno)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o (fileno)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-findfp.o)
                               c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fflush.o) (__sinit)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
@@ -431,9 +431,9 @@ c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mlock.o)
                               c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-freer.o) (__malloc_lock)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-printf.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o (printf)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o (printf)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-puts.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o (puts)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o (puts)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-rand.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o) (rand)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-sbrkr.o)
@@ -449,11 +449,11 @@ c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strcpy.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(HttpMsg.o) (strcpy)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strlen.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o (strlen)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o (strlen)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strncmp.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mRegistration.o) (strncmp)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strncpy.o)
-                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o (strncpy)
+                              C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o (strncpy)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strnlen.o)
                               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mRegistration.o) (strnlen)
 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strstr.o)
@@ -620,7 +620,7 @@ currentRow          0x1               ./../Platform/BLE/debug/libBLE_efm32_debug
 sessions            0x60              ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(HttpPool.o)
 I2C_i2csendData     0x78              ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_cc.o)
 timeChangeTimer_ptr
-                    0x4               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                    0x4               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
 dmaControlBlock     0x200             ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SPI_cc.o)
 allocFlags          0x1               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(MsgPool.o)
 SID_setting_gas     0x40              ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SID_serialDriverInf_cc.o)
@@ -639,7 +639,7 @@ PAL_receiveBuffer_gua
 mutexSSL            0x4               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslAdapter.o)
 workingModes        0x4               ./../Platform/SensorToolbox/release/libSensorToolbox.a
 WLI_connectionStatus_gde
-                    0x1               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                    0x1               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
 TestLog_startComReceive_bSem
                     0x4               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_logAppender_cc.o)
 lwm2m_client        0x304             ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2m.o)
@@ -668,13 +668,13 @@ s_bsxfusionlibrary  0xc               ./../Platform/SensorToolbox/release/libSen
 PAL_reciveBuffer    0x10              ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
 ndof                0x170             ./../Platform/SensorToolbox/release/libSensorToolbox.a
 registrationUpdateTimer_ptr
-                    0x4               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                    0x4               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
 activeOrClosing     0x1               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(HttpPool.o)
 netEntries_gdsa     0x370             ./../Platform/Wlan/debug/libWlan_efm32_debug.a(WlanConnect.o)
 attContext          0x144             ./../Libraries/BLEStack/Alpwise/Core_Stack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
 mutexLog            0x4               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Log.o)
 I2C_i2creadData     0x78              ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_cc.o)
-initializationTask  0x4               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+initializationTask  0x4               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
 accel_fifo          0x36c             ./../Libraries/BSTLib_BSD/BST/../BCDS_Customization/debug/libBstlibBsd_efm32_debug.a(bmi160.o)
 SpiDmaCallback      0xc               ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SPI_cc.o)
 mutexCoapOverloadHandling
@@ -696,7 +696,7 @@ bleTimerAppHandler  0x4               ./../Platform/BLE/debug/libBLE_efm32_debug
 currentSector       0x1               ./../Platform/BLE/debug/libBLE_efm32_debug.a(BLE_radioInterface_cc.o)
 occupied            0x1               ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(HttpPool.o)
 NCI_ipGetStatus_gde
-                    0x1               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                    0x1               C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
 ble                 0x420             ./../Libraries/BLEStack/Alpwise/Core_Stack/Libraries/BLESW_CoreStack_CM3.a(BleMemory.o)
 PAL_BSemaforePALSendingBuffer_gdt
                     0x4               ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
@@ -724,68 +724,68 @@ Discarded input sections
  .data          0x00000000        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .bss           0x00000000        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.extab     0x00000000        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
- .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .text._getpid  0x00000000       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .text._kill    0x00000000       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+ .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._getpid  0x00000000       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._kill    0x00000000       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .data.pin_data
-                0x00000000       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00000000       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .data.full_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .data.empty_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .data.outvalve_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .data.invalve_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .data.heater_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .data.mixer_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .data.pin_data
-                0x00000000       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000000       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .data.full_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .data.empty_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .data.outvalve_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .data.invalve_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .data.heater_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .data.mixer_pin
-                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00000000        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .text          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.target_temperature
-                0x00000000        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00000000        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .text.print_status
-                0x00000000       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00000000       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .text.emulate_exec
-                0x00000000       0x74 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00000000       0x74 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .text.setTargetTemp
-                0x00000000        0xc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
- .text.deinit   0x00000000        0xc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
- .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
- .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
+                0x00000000        0xc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
+ .text.deinit   0x00000000        0xc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
+ .data          0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
+ .bss           0x00000000        0x0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
  .text          0x00000000    0x120bc ./../Platform/SensorToolbox/release/libSensorToolbox.a
  .text.Humidity_getCoefficients
                 0x00000000       0xfc ./../Platform/SensorToolbox/release/libSensorToolbox.a
@@ -6094,14 +6094,14 @@ Linker script and memory map
 LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
 LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
-LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
+LOAD C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
 START GROUP
 LOAD ./../Platform/SensorToolbox/release/libSensorToolbox.a
 LOAD ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a
@@ -6164,9 +6164,9 @@ END GROUP
 LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
 LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
 
-.text           0x00010000    0x66914
+.text           0x00010000    0x66904
  *(.isr_vector)
- .isr_vector    0x00010000      0x100 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
+ .isr_vector    0x00010000      0x100 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
                 0x00010000                __isr_vector
  *(.text*)
  .text          0x00010100       0x54 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
@@ -6174,203 +6174,203 @@ LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
                 0x00010154                _start
                 0x00010154                _mainCRTStartup
                 0x00010154                start
- .text._close   0x000101c4       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._close   0x000101c4       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x000101c4                _close
- .text._exit    0x000101dc        0xc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._exit    0x000101dc        0xc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x000101dc                _exit
- .text._fstat   0x000101e8       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._fstat   0x000101e8       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x000101e8                _fstat
- .text._isatty  0x0001020c       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._isatty  0x0001020c       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x0001020c                _isatty
- .text._lseek   0x00010224       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._lseek   0x00010224       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x00010224                _lseek
- .text._read    0x00010240       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._read    0x00010240       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x00010240                _read
- .text._sbrk    0x000102b0       0xa0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._sbrk    0x000102b0       0xa0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x000102b0                _sbrk
- .text._write   0x00010350       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .text._write   0x00010350       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                 0x00010350                _write
  .text.INT_Disable
-                0x00010370       0x40 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010370       0x40 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.INT_Enable
-                0x000103b0       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x000103b0       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBHAL_FlushTxFifo
-                0x00010404       0x4c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010404       0x4c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBHAL_GetCoreInts
-                0x00010450       0x40 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010450       0x40 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBDHAL_EnableInts
-                0x00010490       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010490       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBDHAL_Ep0Activate
-                0x00010500       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010500       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBDHAL_GetAllInEpInts
-                0x00010570       0x48 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010570       0x48 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBDHAL_GetAllOutEpInts
-                0x000105b8       0x44 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x000105b8       0x44 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBDHAL_GetInEpInts
-                0x000105fc       0x44 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x000105fc       0x44 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBDHAL_GetOutEpInts
-                0x00010640       0x44 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010640       0x44 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBDHAL_StartEp0Setup
-                0x00010684       0x88 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010684       0x88 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USBD_GetEpFromAddr
-                0x0001070c       0xa0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x0001070c       0xa0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.USB_IRQHandler
-                0x000107ac      0x16c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x000107ac      0x16c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
                 0x000107ac                USB_IRQHandler
  .text.Handle_USB_GINTSTS_ENUMDONE
-                0x00010918       0x3c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010918       0x3c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.Handle_USB_GINTSTS_IEPINT
-                0x00010954      0x118 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010954      0x118 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.Handle_USB_GINTSTS_OEPINT
-                0x00010a6c      0x230 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010a6c      0x230 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.Handle_USB_GINTSTS_RESETDET
-                0x00010c9c       0x40 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010c9c       0x40 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.Handle_USB_GINTSTS_SOF
-                0x00010cdc       0x64 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010cdc       0x64 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.Handle_USB_GINTSTS_USBRST
-                0x00010d40      0x150 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010d40      0x150 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.Handle_USB_GINTSTS_USBSUSP
-                0x00010e90       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00010e90       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .text.Handle_USB_GINTSTS_WKUPINT
-                0x00010ef8       0x30 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .text.main     0x00010f28       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
+                0x00010ef8       0x30 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .text.main     0x00010f28       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
                 0x00010f28                main
  .text.timeChanged
-                0x00010f38       0x48 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00010f38       0x48 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
                 0x00010f38                timeChanged
  .text.RegistrationUpdate
-                0x00010f80       0xb0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00010f80       0xb0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
                 0x00010f80                RegistrationUpdate
  .text.registrationCallback
-                0x00011030      0x104 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00011030      0x104 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.registrationUpdateCallback
-                0x00011134       0x50 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00011134       0x50 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.deregistrationCallback
-                0x00011184       0x50 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00011184       0x50 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.NotificationCallback
-                0x000111d4       0x84 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x000111d4       0x84 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.applicationCallback
-                0x00011258       0xc4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00011258       0xc4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.serverPskCallback
-                0x0001131c       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x0001131c       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.clientPskCallback
-                0x00011350       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00011350       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.createLed
-                0x00011384       0xa8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00011384       0xa8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .text.Lwm2mInterfaceStart
-                0x0001142c      0x1b4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x0001142c      0x1b4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
                 0x0001142c                Lwm2mInterfaceStart
  .text.Lwm2mInterfaceInitialize
-                0x000115e0       0x64 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x000115e0       0x64 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
                 0x000115e0                Lwm2mInterfaceInitialize
  .text.StringDescr_set
-                0x00011644       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x00011644       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.deviceRebootFunc
-                0x00011668       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x00011668       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.factoryResetFunc
-                0x0001168c       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x0001168c       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.batteryLevelFunc
-                0x000116b0       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x000116b0       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.memoryFreeFunc
-                0x000116e8       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x000116e8       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.errorCodeFunc
-                0x00011720       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x00011720       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.resetErrorCodeFunc
-                0x00011758       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x00011758       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.getCurrentTime
-                0x0001177c       0xec C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x0001177c       0xec C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.getTimeZone
-                0x00011868       0xe0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x00011868       0xe0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.getBindingFunc
-                0x00011948       0xf0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x00011948       0xf0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .text.StringDescr_set
-                0x00011a38       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00011a38       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .text.get_state
-                0x00011a5c       0xf8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00011a5c       0xf8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .text.get_filling_completed
-                0x00011b54       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00011b54       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .text.get_emptying_completed
-                0x00011b88       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00011b88       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .text.get_heating_completed
-                0x00011bbc       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00011bbc       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .text.get_mixing_completed
-                0x00011bf0       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .text.get_pin  0x00011c24       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011bf0       0x34 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .text.get_pin  0x00011c24       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011c24                get_pin
- .text.set_pin  0x00011c48       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .text.set_pin  0x00011c48       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011c48                set_pin
  .text.read_pins
-                0x00011c68       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011c68       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011c68                read_pins
  .text.notifyState
-                0x00011ca0       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011ca0       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011ca0                notifyState
  .text.notifyFillingCompleted
-                0x00011cf4       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011cf4       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011cf4                notifyFillingCompleted
  .text.notifyEmptyingCompleted
-                0x00011d48       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011d48       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011d48                notifyEmptyingCompleted
  .text.notifyHeatingCompleted
-                0x00011d9c       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011d9c       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011d9c                notifyHeatingCompleted
  .text.notifyMixingCompleted
-                0x00011df0       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011df0       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011df0                notifyMixingCompleted
  .text.process_values
-                0x00011e44       0xec C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011e44       0xec C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011e44                process_values
  .text.write_pins
-                0x00011f30       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011f30       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011f30                write_pins
  .text.exec_fill
-                0x00011f68       0x8c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011f68       0x8c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011f68                exec_fill
  .text.exec_empty
-                0x00011ff4       0x8c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00011ff4       0x8c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00011ff4                exec_empty
  .text.exec_initialize
-                0x00012080       0xf4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012080       0xf4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012080                exec_initialize
  .text.startHeating
-                0x00012174       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012174       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012174                startHeating
  .text.stopHeating
-                0x000121c8       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x000121c8       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x000121c8                stopHeating
  .text.exec_heat
-                0x0001221c       0xf0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x0001221c       0xf0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x0001221c                exec_heat
  .text.startMixing
-                0x0001230c       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x0001230c       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x0001230c                startMixing
  .text.stopMixing
-                0x00012360       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012360       0x54 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012360                stopMixing
  .text.exec_mix
-                0x000123b4       0xe4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x000123b4       0xe4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x000123b4                exec_mix
  .text.exec_stop
-                0x00012498       0xd0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012498       0xd0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012498                exec_stop
  .text.app_circle
-                0x00012568       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012568       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .text.init_pins
-                0x00012584      0x100 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012584      0x100 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012584                init_pins
- .text.ioInit   0x00012684       0xc8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .text.ioInit   0x00012684       0xc8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012684                ioInit
  .text.wlanConnect
-                0x0001274c       0xc8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
- .text.init     0x00012814      0x130 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x0001274c       0xc8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
+ .text.init     0x00012814      0x130 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012814                init
  .text.application
-                0x00012944       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012944       0x24 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012944                application
  .text.appInitSystem
-                0x00012968       0xac C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00012968       0xac C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x00012968                appInitSystem
- .text          0x00012a14       0x98 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
+ .text          0x00012a14       0x98 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
                 0x00012a14                Reset_Handler
                 0x00012a48                Default_Handler
                 0x00012a4a                NMI_Handler
@@ -10285,373 +10285,373 @@ LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
  *(.dtors)
  *(.rodata*)
  .rodata.heaperr.6462
-                0x0006e198       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .rodata        0x0006e1b4      0x324 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .rodata        0x0006e4d8       0xd4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .rodata        0x0006e5ac       0x3c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .rodata        0x0006e5e8      0x534 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
- .rodata        0x0006eb1c       0x4c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mSerializer.o)
- .rodata        0x0006eb68        0x8 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mParser.o)
- .rodata        0x0006eb70       0x60 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mRegistration.o)
- .rodata        0x0006ebd0       0x2c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mMandatoryObjectManagement.o)
- .rodata        0x0006ebfc        0xc ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Log.o)
- .rodata        0x0006ec08       0x90 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(ExceptionHandling.o)
- .rodata        0x0006ec98       0x48 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMessaging.o)
+                0x0006e198       0x1c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .rodata        0x0006e1b4      0x324 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .rodata        0x0006e4d8       0xd4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .rodata        0x0006e5ac       0x3c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .rodata        0x0006e5e8      0x524 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
+ .rodata        0x0006eb0c       0x4c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mSerializer.o)
+ .rodata        0x0006eb58        0x8 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mParser.o)
+ .rodata        0x0006eb60       0x60 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mRegistration.o)
+ .rodata        0x0006ebc0       0x2c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mMandatoryObjectManagement.o)
+ .rodata        0x0006ebec        0xc ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Log.o)
+ .rodata        0x0006ebf8       0x90 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(ExceptionHandling.o)
+ .rodata        0x0006ec88       0x48 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMessaging.o)
  .rodata.Coap_Codes
-                0x0006ece0       0x1c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
-                0x0006ece0                Coap_Codes
+                0x0006ecd0       0x1c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
+                0x0006ecd0                Coap_Codes
  .rodata.Coap_Options
-                0x0006ecfc       0x2c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
-                0x0006ecfc                Coap_Options
+                0x0006ecec       0x2c ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
+                0x0006ecec                Coap_Options
  .rodata.Coap_OptionLength
-                0x0006ed28       0x54 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
+                0x0006ed18       0x54 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
  .rodata.Coap_NonRepeatableOptions
-                0x0006ed7c        0xc ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
+                0x0006ed6c        0xc ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
  .rodata.Coap_ContentFormat
-                0x0006ed88       0x10 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
-                0x0006ed88                Coap_ContentFormat
- .rodata        0x0006ed98       0x28 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
+                0x0006ed78       0x10 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(CoapMsgAux.o)
+                0x0006ed78                Coap_ContentFormat
+ .rodata        0x0006ed88       0x28 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .rodata.InvalidBuffer
-                0x0006edc0        0x4 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
- .rodata        0x0006edc4       0x2c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
- .rodata        0x0006edf0       0x94 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
- .rodata        0x0006ee84       0x58 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_ip_cc.o)
- .rodata        0x0006eedc       0x64 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_logAppender_cc.o)
- .rodata        0x0006ef40       0x30 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_scheduler_cc.o)
- .rodata        0x0006ef70       0x78 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_socketMonitor_cc.o)
- .rodata        0x0006efe8       0x1c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_tcp_cc.o)
- .rodata        0x0006f004       0x30 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_timerRTOS_cc.o)
- .rodata        0x0006f034       0x1c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_udp_cc.o)
- .rodata        0x0006f050      0x10c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslAdapter.o)
+                0x0006edb0        0x4 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
+ .rodata        0x0006edb4       0x2c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
+ .rodata        0x0006ede0       0x94 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
+ .rodata        0x0006ee74       0x58 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_ip_cc.o)
+ .rodata        0x0006eecc       0x64 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_logAppender_cc.o)
+ .rodata        0x0006ef30       0x30 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_scheduler_cc.o)
+ .rodata        0x0006ef60       0x78 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_socketMonitor_cc.o)
+ .rodata        0x0006efd8       0x1c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_tcp_cc.o)
+ .rodata        0x0006eff4       0x30 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_timerRTOS_cc.o)
+ .rodata        0x0006f024       0x1c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_udp_cc.o)
+ .rodata        0x0006f040      0x10c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslAdapter.o)
  .rodata.eccCaCert
-                0x0006f15c      0x1e8 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
-                0x0006f15c                eccCaCert
+                0x0006f14c      0x1e8 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
+                0x0006f14c                eccCaCert
  .rodata.eccClntCert
-                0x0006f344      0x1a8 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
-                0x0006f344                eccClntCert
+                0x0006f334      0x1a8 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
+                0x0006f334                eccClntCert
  .rodata.eccClntKey
-                0x0006f4ec       0x7c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
-                0x0006f4ec                eccClntKey
+                0x0006f4dc       0x7c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
+                0x0006f4dc                eccClntKey
  .rodata.eccSrvCert
-                0x0006f568      0x1a4 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
-                0x0006f568                eccSrvCert
+                0x0006f558      0x1a4 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
+                0x0006f558                eccSrvCert
  .rodata.eccSrvKey
-                0x0006f70c       0x7c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
-                0x0006f70c                eccSrvKey
- .rodata        0x0006f788       0xf0 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
- .rodata        0x0006f878       0x28 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslPALAdapter.o)
+                0x0006f6fc       0x7c ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
+                0x0006f6fc                eccSrvKey
+ .rodata        0x0006f778       0xf0 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslCredentials.o)
+ .rodata        0x0006f868       0x28 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(CyaSslPALAdapter.o)
  .rodata._SlNetAppStopCtrl
-                0x0006f8a0        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(netapp.o)
-                0x0006f8a0                _SlNetAppStopCtrl
+                0x0006f890        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(netapp.o)
+                0x0006f890                _SlNetAppStopCtrl
  .rodata._SlNetAppSendTokenValueCmdCtrl
-                0x0006f8a4        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(netapp.o)
-                0x0006f8a4                _SlNetAppSendTokenValueCmdCtrl
+                0x0006f894        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(netapp.o)
+                0x0006f894                _SlNetAppSendTokenValueCmdCtrl
  .rodata._SlNetCfgGetCmdCtrl
-                0x0006f8a8        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(netcfg.o)
-                0x0006f8a8                _SlNetCfgGetCmdCtrl
+                0x0006f898        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(netcfg.o)
+                0x0006f898                _SlNetCfgGetCmdCtrl
  .rodata._SlSockSocketCmdCtrl
-                0x0006f8ac        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
-                0x0006f8ac                _SlSockSocketCmdCtrl
+                0x0006f89c        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
+                0x0006f89c                _SlSockSocketCmdCtrl
  .rodata._SlSockCloseCmdCtrl
-                0x0006f8b0        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
-                0x0006f8b0                _SlSockCloseCmdCtrl
+                0x0006f8a0        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
+                0x0006f8a0                _SlSockCloseCmdCtrl
  .rodata._SlRecvfomCmdCtrl
-                0x0006f8b4        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
-                0x0006f8b4                _SlRecvfomCmdCtrl
+                0x0006f8a4        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
+                0x0006f8a4                _SlRecvfomCmdCtrl
  .rodata._SlSendCmdCtrl
-                0x0006f8b8        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
-                0x0006f8b8                _SlSendCmdCtrl
+                0x0006f8a8        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
+                0x0006f8a8                _SlSendCmdCtrl
  .rodata._SlRecvCmdCtrl
-                0x0006f8bc        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
-                0x0006f8bc                _SlRecvCmdCtrl
+                0x0006f8ac        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
+                0x0006f8ac                _SlRecvCmdCtrl
  .rodata._SlSetSockOptCmdCtrl
-                0x0006f8c0        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
-                0x0006f8c0                _SlSetSockOptCmdCtrl
+                0x0006f8b0        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
+                0x0006f8b0                _SlSetSockOptCmdCtrl
  .rodata._SlSelectCmdCtrl
-                0x0006f8c4        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
-                0x0006f8c4                _SlSelectCmdCtrl
+                0x0006f8b4        0x4 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(socket.o)
+                0x0006f8b4                _SlSelectCmdCtrl
  .rodata.g_H2NSyncPattern
-                0x0006f8c8        0x8 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(driver.o)
-                0x0006f8c8                g_H2NSyncPattern
+                0x0006f8b8        0x8 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(driver.o)
+                0x0006f8b8                g_H2NSyncPattern
  .rodata.g_H2NCnysPattern
-                0x0006f8d0        0x8 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(driver.o)
-                0x0006f8d0                g_H2NCnysPattern
+                0x0006f8c0        0x8 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(driver.o)
+                0x0006f8c0                g_H2NCnysPattern
  .rodata._SlActionLookupTable
-                0x0006f8d8       0x38 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(driver.o)
-                0x0006f8d8                _SlActionLookupTable
- .rodata        0x0006f910        0x8 ./../Platform/Wlan/debug/libWlan_efm32_debug.a(WlanDriver.o)
- .rodata        0x0006f918       0x60 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(queue.o)
- .rodata        0x0006f978       0x68 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(tasks.o)
+                0x0006f8c8       0x38 ./../Libraries/WiFi/TI/../BCDS_Customization/debug/libWifiLib_efm32_debug.a(driver.o)
+                0x0006f8c8                _SlActionLookupTable
+ .rodata        0x0006f900        0x8 ./../Platform/Wlan/debug/libWlan_efm32_debug.a(WlanDriver.o)
+ .rodata        0x0006f908       0x60 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(queue.o)
+ .rodata        0x0006f968       0x68 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(tasks.o)
  .rodata.ucExpectedStackBytes.4857
-                0x0006f9e0       0x14 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(tasks.o)
- .rodata        0x0006f9f4       0x70 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(timers.o)
+                0x0006f9d0       0x14 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(tasks.o)
+ .rodata        0x0006f9e4       0x70 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(timers.o)
  .rodata.heapSTRUCT_SIZE
-                0x0006fa64        0x2 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
- *fill*         0x0006fa66        0x2 00
+                0x0006fa54        0x2 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
+ *fill*         0x0006fa56        0x2 00
  .rodata.xTotalHeapSize
-                0x0006fa68        0x4 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
- .rodata        0x0006fa6c       0x70 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
+                0x0006fa58        0x4 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
+ .rodata        0x0006fa5c       0x70 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
  .rodata.pcInterruptPriorityRegisters
-                0x0006fadc        0x4 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(port.o)
- .rodata        0x0006fae0       0x70 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(port.o)
+                0x0006facc        0x4 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(port.o)
+ .rodata        0x0006fad0       0x70 ./../Libraries/FreeRTOS/FreeRTOS/../BCDS_Customization/debug/libFreeRTOS_efm32_debug.a(port.o)
  .rodata.SERIAL_i2cChannel2SidChannelConv
-                0x0006fb50        0x4 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_cc.o)
-                0x0006fb50                SERIAL_i2cChannel2SidChannelConv
- .rodata        0x0006fb54       0x1c ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_cc.o)
- .rodata        0x0006fb70       0x30 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SID_serialDriverInf_cc.o)
- .rodata        0x0006fba0       0x10 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_efm32Driver_cc.o)
- .rodata        0x0006fbb0       0x28 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(PTD_portDriver_cc.o)
+                0x0006fb40        0x4 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_cc.o)
+                0x0006fb40                SERIAL_i2cChannel2SidChannelConv
+ .rodata        0x0006fb44       0x1c ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_cc.o)
+ .rodata        0x0006fb60       0x30 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SID_serialDriverInf_cc.o)
+ .rodata        0x0006fb90       0x10 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(I2C_efm32Driver_cc.o)
+ .rodata        0x0006fba0       0x28 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(PTD_portDriver_cc.o)
  .rodata.SER_parityTable
-                0x0006fbd8       0x24 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
+                0x0006fbc8       0x24 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
  .rodata.SER_dataBitsTable
-                0x0006fbfc       0x18 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
+                0x0006fbec       0x18 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
  .rodata.SER_stopBitsTable
-                0x0006fc14       0x18 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
+                0x0006fc04       0x18 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
  .rodata.SER_routeLocationTable
-                0x0006fc2c       0x30 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
+                0x0006fc1c       0x30 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(SER_serialDriver_cc.o)
  .rodata.USB_manufacturerName_gau
-                0x0006fc5c       0x58 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fc4c       0x58 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.USB_productName_gau
-                0x0006fcb4       0x24 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fca4       0x24 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.USB_deviceDescriptor_mds
-                0x0006fcd8       0x14 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fcc8       0x14 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.USB_configDescriptor_ma
-                0x0006fcec       0x44 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fcdc       0x44 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.langID
-                0x0006fd30        0x4 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fd20        0x4 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.USB_strings_ma
-                0x0006fd34       0x10 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fd24       0x10 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.USB_callbacks_mds
-                0x0006fd44       0x14 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fd34       0x14 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.USB_initStruct_mds
-                0x0006fd58       0x1c ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
- .rodata        0x0006fd74       0x24 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+                0x0006fd48       0x1c ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
+ .rodata        0x0006fd64       0x24 ./../Platform/Peripherals/debug/libPeripherals_efm32_debug.a(USB_cc.o)
  .rodata.i2cNSum
-                0x0006fd98        0x4 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_i2c.o)
- .rodata        0x0006fd9c       0x6c ../Common/debug/XDKCommon_efm32_debug.a(SystemStartup.o)
+                0x0006fd88        0x4 ./../Libraries/EMlib/EMLib/../BCDS_Customization/debug/libEMLib_efm32_debug.a(em_i2c.o)
+ .rodata        0x0006fd8c       0x6c ../Common/debug/XDKCommon_efm32_debug.a(SystemStartup.o)
  .rodata.gpioRedLed_Handle
-                0x0006fe08        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
-                0x0006fe08                gpioRedLed_Handle
+                0x0006fdf8        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
+                0x0006fdf8                gpioRedLed_Handle
  .rodata.gpioYellowLed_Handle
-                0x0006fe0c        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
-                0x0006fe0c                gpioYellowLed_Handle
+                0x0006fdfc        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
+                0x0006fdfc                gpioYellowLed_Handle
  .rodata.gpioOrangeLed_Handle
-                0x0006fe10        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
-                0x0006fe10                gpioOrangeLed_Handle
+                0x0006fe00        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
+                0x0006fe00                gpioOrangeLed_Handle
  .rodata.i2cChannel0_Handle
-                0x0006fe14        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
-                0x0006fe14                i2cChannel0_Handle
+                0x0006fe04        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
+                0x0006fe04                i2cChannel0_Handle
  .rodata.i2cChannel1_Handle
-                0x0006fe18        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
-                0x0006fe18                i2cChannel1_Handle
- .rodata        0x0006fe1c       0x4c ../Common/debug/XDKCommon_efm32_debug.a(BoardInitialization.o)
+                0x0006fe08        0x4 ../Common/debug/XDKCommon_efm32_debug.a(BoardHandle.o)
+                0x0006fe08                i2cChannel1_Handle
+ .rodata        0x0006fe0c       0x4c ../Common/debug/XDKCommon_efm32_debug.a(BoardInitialization.o)
  .rodata.Boot_Reset_Cmd
-                0x0006fe68        0xc ./../Platform/Utils/debug/libUtils_efm32_debug.a(URU_usbResetUtility_cc.o)
-                0x0006fe68                Boot_Reset_Cmd
+                0x0006fe58        0xc ./../Platform/Utils/debug/libUtils_efm32_debug.a(URU_usbResetUtility_cc.o)
+                0x0006fe58                Boot_Reset_Cmd
  .rodata.Appl_Reset_Cmd
-                0x0006fe74        0x8 ./../Platform/Utils/debug/libUtils_efm32_debug.a(URU_usbResetUtility_cc.o)
-                0x0006fe74                Appl_Reset_Cmd
- .rodata        0x0006fe7c       0x20 ./../Platform/Power/debug/libPOWER_efm32_debug.a(PowerMgt.o)
- .rodata        0x0006fe9c     0x115c ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(ssl.o)
+                0x0006fe64        0x8 ./../Platform/Utils/debug/libUtils_efm32_debug.a(URU_usbResetUtility_cc.o)
+                0x0006fe64                Appl_Reset_Cmd
+ .rodata        0x0006fe6c       0x20 ./../Platform/Power/debug/libPOWER_efm32_debug.a(PowerMgt.o)
+ .rodata        0x0006fe8c     0x115c ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(ssl.o)
  .rodata.client
-                0x00070ff8        0x4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
+                0x00070fe8        0x4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
  .rodata.tls_client
-                0x00070ffc       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
+                0x00070fec       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
  .rodata.tls_server
-                0x0007100c       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
+                0x00070ffc       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
  .rodata.master_label
-                0x0007101c       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
+                0x0007100c       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
  .rodata.key_label
-                0x0007102c       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
- .rodata        0x0007103c      0x72c ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x0007101c       0x10 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tls.o)
+ .rodata        0x0007102c      0x72c ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.shaAlgoID.5585
-                0x00071768        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071758        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha256AlgoID.5586
-                0x00071770        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071760        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha384AlgoID.5587
-                0x0007177c        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x0007176c        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha512AlgoID.5588
-                0x00071788        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071778        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.md2AlgoID.5590
-                0x00071794        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071784        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.md5AlgoID.5589
-                0x000717a0        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071790        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.desCbcAlgoID.5591
-                0x000717ac        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x0007179c        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.des3CbcAlgoID.5592
-                0x000717b4        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717a4        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.md5wRSA_AlgoID.5593
-                0x000717bc        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717ac        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.shawRSA_AlgoID.5594
-                0x000717c8        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717b8        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha256wRSA_AlgoID.5595
-                0x000717d4        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717c4        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha384wRSA_AlgoID.5596
-                0x000717e0        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717d0        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha512wRSA_AlgoID.5597
-                0x000717ec        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717dc        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.shawECDSA_AlgoID.5598
-                0x000717f8        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717e8        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha256wECDSA_AlgoID.5599
-                0x00071804        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x000717f4        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha384wECDSA_AlgoID.5600
-                0x00071810        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071800        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.sha512wECDSA_AlgoID.5601
-                0x0007181c        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x0007180c        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.RSA_AlgoID.5602
-                0x00071828        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071818        0xc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.ECC_AlgoID.5603
-                0x00071834        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x00071824        0x8 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata._ytab.5303
-                0x0007183c       0x60 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
+                0x0007182c       0x60 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(asn.o)
  .rodata.base64Decode
-                0x0007189c       0x50 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(coding.o)
- .rodata        0x000718ec       0x68 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(coding.o)
- .rodata        0x00071954      0xa84 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(ecc.o)
+                0x0007188c       0x50 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(coding.o)
+ .rodata        0x000718dc       0x68 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(coding.o)
+ .rodata        0x00071944      0xa84 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(ecc.o)
  .rodata.ecc_sets
-                0x000723d8       0xfc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(ecc.o)
-                0x000723d8                ecc_sets
- .rodata        0x000724d4       0x5c ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(logging.o)
- .rodata        0x00072530       0x20 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(rsa.o)
- .rodata.K      0x00072550      0x100 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(sha256.o)
- .rodata        0x00072650       0x44 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tfm.o)
+                0x000723c8       0xfc ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(ecc.o)
+                0x000723c8                ecc_sets
+ .rodata        0x000724c4       0x5c ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(logging.o)
+ .rodata        0x00072520       0x20 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(rsa.o)
+ .rodata.K      0x00072540      0x100 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(sha256.o)
+ .rodata        0x00072640       0x44 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(tfm.o)
  .rodata.client
-                0x00072694        0x4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
+                0x00072684        0x4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
  .rodata.server
-                0x00072698        0x4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
- .rodata        0x0007269c     0x1584 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
- .rodata.PAD1   0x00073c20       0x30 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
- .rodata.PAD2   0x00073c50       0x30 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
+                0x00072688        0x4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
+ .rodata        0x0007268c     0x1584 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
+ .rodata.PAD1   0x00073c10       0x30 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
+ .rodata.PAD2   0x00073c40       0x30 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
  .rodata.cipher_names
-                0x00073c80       0x64 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
- .rodata        0x00073ce4       0xa4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(keys.o)
- .rodata.rcon   0x00073d88       0x28 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
- .rodata.Te     0x00073db0     0x1400 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
- .rodata.Td     0x000751b0     0x1400 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
- .rodata        0x000765b0       0x60 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
+                0x00073c70       0x64 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(internal.o)
+ .rodata        0x00073cd4       0xa4 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(keys.o)
+ .rodata.rcon   0x00073d78       0x28 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
+ .rodata.Te     0x00073da0     0x1400 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
+ .rodata.Td     0x000751a0     0x1400 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
+ .rodata        0x000765a0       0x60 ./../Libraries/Cyassl/BCDS_Customization/release/libCyassl_efm32.a(aes.o)
  .rodata._ctype_
-                0x00076610      0x104 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-ctype_.o)
-                0x00076610                _ctype_
+                0x00076600      0x104 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-ctype_.o)
+                0x00076600                _ctype_
  .rodata.str1.4
-                0x00076714        0x2 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x00076704        0x2 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
- *fill*         0x00076716        0x2 00
+ *fill*         0x00076706        0x2 00
  .rodata._global_impure_ptr
-                0x00076718        0x4 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
-                0x00076718                _global_impure_ptr
+                0x00076708        0x4 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x00076708                _global_impure_ptr
  .rodata.str1.4
-                0x0007671c        0x2 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-puts.o)
+                0x0007670c        0x2 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-puts.o)
                                   0x4 (size before relaxing)
- *fill*         0x0007671e        0x2 00
+ *fill*         0x0007670e        0x2 00
  .rodata.str1.4
-                0x00076720        0xf c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strtod.o)
+                0x00076710        0xf c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strtod.o)
                                  0x10 (size before relaxing)
- *fill*         0x0007672f        0x1 00
+ *fill*         0x0007671f        0x1 00
  .rodata.tinytens
-                0x00076730       0x28 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strtod.o)
+                0x00076720       0x28 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strtod.o)
  .rodata.str1.4
-                0x00076758       0x42 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
+                0x00076748       0x42 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
                                  0x44 (size before relaxing)
- *fill*         0x0007679a        0x2 00
+ *fill*         0x0007678a        0x2 00
  .rodata.zeroes.6721
-                0x0007679c       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
+                0x0007678c       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
  .rodata.blanks.6720
-                0x000767ac       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
+                0x0007679c       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
  .rodata.blanks.6735
-                0x000767bc       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
+                0x000767ac       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
                 0x00000000       0x44 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.zeroes.6736
-                0x000767cc       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
+                0x000767bc       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x000767dc       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-dtoa.o)
+                0x000767cc       0x10 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-dtoa.o)
                                  0x14 (size before relaxing)
  .rodata.str1.4
-                0x000767ec       0x1b c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-gdtoa-gethex.o)
+                0x000767dc       0x1b c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-gdtoa-gethex.o)
                                  0x1c (size before relaxing)
- *fill*         0x00076807        0x1 00
+ *fill*         0x000767f7        0x1 00
  .rodata.str1.4
-                0x00076808        0xc c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-locale.o)
+                0x000767f8        0xc c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-locale.o)
                                  0x14 (size before relaxing)
  .rodata.p05.5242
-                0x00076814        0xc c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
+                0x00076804        0xc c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
  .rodata.__mprec_tens
-                0x00076820       0xc8 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
-                0x00076820                __mprec_tens
+                0x00076810       0xc8 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
+                0x00076810                __mprec_tens
  .rodata.__mprec_bigtens
-                0x000768e8       0x28 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
-                0x000768e8                __mprec_bigtens
+                0x000768d8       0x28 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
+                0x000768d8                __mprec_bigtens
  *(.eh_frame*)
- .eh_frame      0x00076910        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
- .eh_frame      0x00076910        0x4 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+ .eh_frame      0x00076900        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .eh_frame      0x00076900        0x4 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
 
-.glue_7         0x00076914        0x0
+.glue_7         0x00076904        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00076914        0x0
+.glue_7t        0x00076904        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00076914        0x0
+.vfp11_veneer   0x00076904        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00076914        0x0
+.v4_bx          0x00076904        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00076914        0x0
+.iplt           0x00076904        0x0
  .iplt          0x00000000        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00076914                __exidx_start = .
+                0x00076904                __exidx_start = .
 
-.ARM.exidx      0x00076914        0x8
+.ARM.exidx      0x00076904        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00076914        0x8 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
- .ARM.exidx     0x0007691c        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00076904        0x8 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x0007690c        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a(_divdi3.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0007691c        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x0007690c        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x0007691c                __exidx_end = .
-                0x0007691c                __etext = .
+                0x0007690c                __exidx_end = .
+                0x0007690c                __etext = .
 
-.rel.dyn        0x0007691c        0x0
+.rel.dyn        0x0007690c        0x0
  .rel.iplt      0x00000000        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 
-.data           0x20000000     0x11b4 load address 0x0007691c
+.data           0x20000000     0x11b4 load address 0x0007690c
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
- .data.tz       0x20000000       0x14 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+ .data.tz       0x20000000       0x14 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .data.deviceResources
-                0x20000014       0xcc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x20000014       0xcc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
                 0x20000014                deviceResources
- .data.silo1    0x200000e0       0x90 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+ .data.silo1    0x200000e0       0x90 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
                 0x200000e0                silo1
  .data.objectInstances
-                0x20000170       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x20000170       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
                 0x20000170                objectInstances
  .data.deviceResourceInfo
-                0x20000190       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x20000190       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
                 0x20000190                deviceResourceInfo
  .data.pin_data
-                0x200001a0       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001a0       0x18 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.full_pin
-                0x200001b8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001b8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.empty_pin
-                0x200001c0        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001c0        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.outvalve_pin
-                0x200001c8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001c8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.invalve_pin
-                0x200001d0        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001d0        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.heater_pin
-                0x200001d8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001d8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.mixer_pin
-                0x200001e0        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001e0        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .data.heatingMs
-                0x200001e8        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001e8        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x200001e8                heatingMs
  .data.mixingMs
-                0x200001ec        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x200001ec        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x200001ec                mixingMs
  .data.resourceMonitorAC
                 0x200001f0        0x8 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(ResourceMonitor.o)
@@ -10765,10 +10765,10 @@ LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
                 0x200011b4                . = ALIGN (0x4)
                 0x200011b4                __data_end__ = .
 
-.jcr            0x200011b4        0x0 load address 0x00077ad0
+.jcr            0x200011b4        0x0 load address 0x00077ac0
  .jcr           0x200011b4        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 
-.igot.plt       0x200011b4        0x0 load address 0x00077ad0
+.igot.plt       0x200011b4        0x0 load address 0x00077ac0
  .igot.plt      0x00000000        0x0 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 
 .bss            0x20001200    0x1b928 load address 0x00077c00
@@ -10776,40 +10776,40 @@ LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
  *(.bss*)
  .bss           0x20001200       0x1c c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
  .bss.heap_end.6460
-                0x2000121c        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+                0x2000121c        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
  .bss.redLedHandle
-                0x20001220        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x20001220        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .bss.yellowLedHandle
-                0x20001224        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x20001224        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .bss.orangeLedHandle
-                0x20001228        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x20001228        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .bss.RegistrationUpdateRetry
-                0x2000122c        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x2000122c        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  *fill*         0x2000122d        0x3 00
- .bss.offset    0x20001230        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+ .bss.offset    0x20001230        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .bss.readPinsTimer
-                0x20001234        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x20001234        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .bss.silo_state
-                0x20001238        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x20001238        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x20001238                silo_state
  *fill*         0x20001239        0x3 00
  .bss.stopHeatingTimer
-                0x2000123c        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x2000123c        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .bss.stopMixingTimer
-                0x20001240        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x20001240        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .bss.filling_completed
-                0x20001244        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x20001244        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x20001244                filling_completed
  .bss.emptying_completed
-                0x20001245        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x20001245        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x20001245                emptying_completed
  .bss.heating_completed
-                0x20001246        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x20001246        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x20001246                heating_completed
  .bss.mixing_completed
-                0x20001247        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x20001247        0x1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x20001247                mixing_completed
- .bss.siloTask  0x20001248        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .bss.siloTask  0x20001248        0x4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .bss.bootstrapRequestTimer
                 0x2000124c       0x10 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mBootstrap.o)
  .bss.onBootstrapRequestSent
@@ -11227,10 +11227,10 @@ LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
                 0x2001a4a0       0x28 c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mallocr.o)
                 0x2001a4a0                __malloc_current_mallinfo
  *(COMMON)
- COMMON         0x2001a4c8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+ COMMON         0x2001a4c8        0x8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
                 0x2001a4c8                timeChangeTimer_ptr
                 0x2001a4cc                registrationUpdateTimer_ptr
- COMMON         0x2001a4d0        0x9 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ COMMON         0x2001a4d0        0x9 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                 0x2001a4d0                WLI_connectionStatus_gde
                 0x2001a4d4                initializationTask
                 0x2001a4d8                NCI_ipGetStatus_gde
@@ -11328,18 +11328,18 @@ LOAD c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
                 0x2001cb28                end = __end__
                 0x2001cb28                _end = __end__
  *(.heap*)
- .heap          0x2001cb28      0xc00 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
+ .heap          0x2001cb28      0xc00 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
                 0x2001cb28                __HeapBase
                 0x2001d728                __HeapLimit = .
 
 .stack_dummy    0x2001cb28      0x400
  *(.stack)
- .stack         0x2001cb28      0x400 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
+ .stack         0x2001cb28      0x400 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
                 0x20020000                __StackTop = (ORIGIN (RAM) + 0x20000)
                 0x2001fc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x20020000                PROVIDE (__stack, __StackTop)
                 0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
-OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClient.out elf32-littlearm)
+OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/Lwm2mExampleClient.out elf32-littlearm)
 
 .ARM.attributes
                 0x00000000       0x29
@@ -11350,21 +11350,21 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
  .ARM.attributes
                 0x0000004a       0x1b c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.attributes
-                0x00000065       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+                0x00000065       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
  .ARM.attributes
-                0x00000098       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00000098       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .ARM.attributes
-                0x000000cb       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
+                0x000000cb       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
  .ARM.attributes
-                0x000000fe       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x000000fe       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .ARM.attributes
-                0x00000131       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x00000131       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .ARM.attributes
-                0x00000164       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000164       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .ARM.attributes
-                0x00000197       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00000197       0x33 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .ARM.attributes
-                0x000001ca       0x1b C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/startup_efm32gg.o
+                0x000001ca       0x1b C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/startup_efm32gg.o
  .ARM.attributes
                 0x000001e5       0x33 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2m.o)
  .ARM.attributes
@@ -11803,14 +11803,14 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
                 0x00002ac0       0x1d c:/xdk-workbench2/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
 
 .comment        0x00000000       0x70
- .comment       0x00000000       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .comment       0x00000000       0x70 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                                  0x71 (size before relaxing)
- .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .comment       0x00000000       0x71 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .comment       0x00000000       0x71 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2m.o)
  .comment       0x00000000       0x71 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mSerializer.o)
  .comment       0x00000000       0x71 ./../Libraries/Serval/BCDS_Customization/release/libServal_efm32.a(Lwm2mBootstrap.o)
@@ -11950,13 +11950,13 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
  .comment       0x00000000       0x71 ./../Platform/BLE/debug/libBLE_efm32_debug.a(BLE_system_cc.o)
 
 .debug_info     0x00000000    0x3c6b6
- .debug_info    0x00000000      0xdc6 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .debug_info    0x00000dc6     0x15aa C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .debug_info    0x00002370       0x98 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .debug_info    0x00002408     0x15f5 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .debug_info    0x000039fd     0x119d C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .debug_info    0x00004b9a     0x12dd C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .debug_info    0x00005e77     0x1573 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .debug_info    0x00000000      0xdc6 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .debug_info    0x00000dc6     0x15aa C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .debug_info    0x00002370       0x98 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .debug_info    0x00002408     0x15f5 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .debug_info    0x000039fd     0x119d C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .debug_info    0x00004b9a     0x12dd C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .debug_info    0x00005e77     0x1573 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .debug_info    0x000073ea      0xa3a ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .debug_info    0x00007e24      0x705 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
  .debug_info    0x00008529      0xab9 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
@@ -12028,13 +12028,13 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
  .debug_info    0x0003b579     0x113d ./../Platform/BLE/debug/libBLE_efm32_debug.a(BLE_system_cc.o)
 
 .debug_abbrev   0x00000000     0x8e39
- .debug_abbrev  0x00000000      0x294 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .debug_abbrev  0x00000294      0x317 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .debug_abbrev  0x000005ab       0x46 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .debug_abbrev  0x000005f1      0x243 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .debug_abbrev  0x00000834      0x1cb C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .debug_abbrev  0x000009ff      0x1f4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .debug_abbrev  0x00000bf3      0x23b C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .debug_abbrev  0x00000000      0x294 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .debug_abbrev  0x00000294      0x317 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .debug_abbrev  0x000005ab       0x46 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .debug_abbrev  0x000005f1      0x243 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .debug_abbrev  0x00000834      0x1cb C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .debug_abbrev  0x000009ff      0x1f4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .debug_abbrev  0x00000bf3      0x23b C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .debug_abbrev  0x00000e2e       0x94 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .debug_abbrev  0x00000ec2      0x1d8 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
  .debug_abbrev  0x0000109a       0xf5 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
@@ -12106,13 +12106,13 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
  .debug_abbrev  0x00008b75      0x2c4 ./../Platform/BLE/debug/libBLE_efm32_debug.a(BLE_system_cc.o)
 
 .debug_loc      0x00000000     0xd174
- .debug_loc     0x00000000      0x224 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .debug_loc     0x00000224      0x45c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .debug_loc     0x00000680       0x2c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .debug_loc     0x000006ac      0x2a0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .debug_loc     0x0000094c      0x234 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .debug_loc     0x00000b80      0x150 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .debug_loc     0x00000cd0      0x68e C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .debug_loc     0x00000000      0x224 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .debug_loc     0x00000224      0x45c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .debug_loc     0x00000680       0x2c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .debug_loc     0x000006ac      0x2a0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .debug_loc     0x0000094c      0x234 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .debug_loc     0x00000b80      0x150 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .debug_loc     0x00000cd0      0x68e C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .debug_loc     0x0000135e       0x70 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .debug_loc     0x000013ce      0x3a0 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
  .debug_loc     0x0000176e       0xa8 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
@@ -12183,19 +12183,19 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
 
 .debug_aranges  0x00000000     0x2608
  .debug_aranges
-                0x00000000       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+                0x00000000       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
  .debug_aranges
-                0x00000068       0xc0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+                0x00000068       0xc0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
  .debug_aranges
-                0x00000128       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
+                0x00000128       0x20 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
  .debug_aranges
-                0x00000148       0x78 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+                0x00000148       0x78 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
  .debug_aranges
-                0x000001c0       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+                0x000001c0       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
  .debug_aranges
-                0x00000228       0x48 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+                0x00000228       0x48 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
  .debug_aranges
-                0x00000270      0x110 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+                0x00000270      0x110 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .debug_aranges
                 0x00000380       0x28 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .debug_aranges
@@ -12336,13 +12336,13 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
                 0x00002528       0xe0 ./../Platform/BLE/debug/libBLE_efm32_debug.a(BLE_system_cc.o)
 
 .debug_ranges   0x00000000     0x2168
- .debug_ranges  0x00000000       0x58 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .debug_ranges  0x00000058       0xb0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .debug_ranges  0x00000108       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .debug_ranges  0x00000118       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .debug_ranges  0x00000180       0x58 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .debug_ranges  0x000001d8       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .debug_ranges  0x00000210      0x100 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .debug_ranges  0x00000000       0x58 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .debug_ranges  0x00000058       0xb0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .debug_ranges  0x00000108       0x10 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .debug_ranges  0x00000118       0x68 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .debug_ranges  0x00000180       0x58 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .debug_ranges  0x000001d8       0x38 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .debug_ranges  0x00000210      0x100 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .debug_ranges  0x00000310       0x18 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .debug_ranges  0x00000328       0x90 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
  .debug_ranges  0x000003b8       0x20 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
@@ -12412,13 +12412,13 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
  .debug_ranges  0x00002098       0xd0 ./../Platform/BLE/debug/libBLE_efm32_debug.a(BLE_system_cc.o)
 
 .debug_line     0x00000000    0x14283
- .debug_line    0x00000000      0x2d8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .debug_line    0x000002d8      0x512 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .debug_line    0x000007ea       0x72 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .debug_line    0x0000085c      0x4a2 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .debug_line    0x00000cfe      0x2a8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .debug_line    0x00000fa6      0x2f1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .debug_line    0x00001297      0x616 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .debug_line    0x00000000      0x2d8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .debug_line    0x000002d8      0x512 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .debug_line    0x000007ea       0x72 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .debug_line    0x0000085c      0x4a2 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .debug_line    0x00000cfe      0x2a8 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .debug_line    0x00000fa6      0x2f1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .debug_line    0x00001297      0x616 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .debug_line    0x000018ad      0x171 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .debug_line    0x00001a1e      0x512 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
  .debug_line    0x00001f30      0x1e7 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
@@ -12490,19 +12490,19 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
  .debug_line    0x00013c0e      0x675 ./../Platform/BLE/debug/libBLE_efm32_debug.a(BLE_system_cc.o)
 
 .debug_str      0x00000000    0x13a03
- .debug_str     0x00000000      0x5d1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .debug_str     0x00000000      0x5d1 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
                                 0x68c (size before relaxing)
- .debug_str     0x000005d1      0xc99 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .debug_str     0x000005d1      0xc99 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
                                 0xe0f (size before relaxing)
- .debug_str     0x0000126a       0x41 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
+ .debug_str     0x0000126a       0x41 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
                                 0x145 (size before relaxing)
- .debug_str     0x000012ab     0x2ce0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
+ .debug_str     0x000012ab     0x2ce0 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
                                0x2f15 (size before relaxing)
- .debug_str     0x00003f8b      0x46f C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
+ .debug_str     0x00003f8b      0x46f C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
                                0x28bf (size before relaxing)
- .debug_str     0x000043fa      0x146 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
+ .debug_str     0x000043fa      0x146 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
                                0x2b1d (size before relaxing)
- .debug_str     0x00004540      0x5be C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .debug_str     0x00004540      0x5be C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
                                0x2c01 (size before relaxing)
  .debug_str     0x00004afe       0x83 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
                                0x2293 (size before relaxing)
@@ -12644,13 +12644,13 @@ OUTPUT(C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/Lwm2mExampleClie
                                 0xe7b (size before relaxing)
 
 .debug_frame    0x00000000     0x8de0
- .debug_frame   0x00000000      0x130 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
- .debug_frame   0x00000130      0x26c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
- .debug_frame   0x0000039c       0x2c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/main.o
- .debug_frame   0x000003c8      0x194 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mInterface.o
- .debug_frame   0x0000055c      0x14c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjects.o
- .debug_frame   0x000006a8       0xcc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mObjectsDevice.o
- .debug_frame   0x00000774      0x3d4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/debug/objects/Lwm2mExampleClient.o
+ .debug_frame   0x00000000      0x130 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Platform/Utils/source/RSM_retargetStdioMessage/retargetio.o
+ .debug_frame   0x00000130      0x26c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/./../Libraries/EMlib/EMLib/usb/src/em_usbdint.o
+ .debug_frame   0x0000039c       0x2c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/main.o
+ .debug_frame   0x000003c8      0x194 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mInterface.o
+ .debug_frame   0x0000055c      0x14c C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjects.o
+ .debug_frame   0x000006a8       0xcc C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mObjectsDevice.o
+ .debug_frame   0x00000774      0x3d4 C:/Users/Jason/Documents/GitHub/xdk_silocontroller/SiloController/debug/objects/Lwm2mExampleClient.o
  .debug_frame   0x00000b48       0x50 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_clockRTOS_cc.o)
  .debug_frame   0x00000b98      0x218 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_commBuffer_cc.o)
  .debug_frame   0x00000db0       0x70 ./../Platform/ServalPAL_WiFi/debug/libServalPalWifi_efm32_debug.a(PAL_initialize_cc.o)
